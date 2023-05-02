@@ -29,7 +29,12 @@ The app also serves the functional purpose of being something very similar to th
 
 To install the project simply clone the repo to a directory on your machine. Example installation shown in the video below.
 
+
 ## Usage
+
+
+https://user-images.githubusercontent.com/122698132/235585174-6523a534-1462-4f6c-a27c-bb50b0e63d62.mp4
+
 
 Once installed, use the SQL code provided in the db folder and a SQL interface of your choice to create and seed the database.  open the project directory in your terminal run ```touch .env``` open this file and populate it with DB_USER, DB_PASSWORD, and DB_NAME. Then fill in your SQL name and password and the name of the database. In the terminal run ```npm i```. This will install any dependancies needed. Then run  ```node index.js``` and the app is ready to go!
 
