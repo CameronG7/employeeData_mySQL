@@ -31,7 +31,7 @@ To install the project simply clone the repo to a directory on your machine. Exa
 
 ## Usage
 
-Once installed, open the project directory in your terminal and run npm i in the command line. This will install any dependancies needed. Then run  node index.js and answer the questions. The READMe will be generated in the the directory.
+Once installed, use the SQL code provided in the db folder and a SQL interface of your choice to create and seed the database.  open the project directory in your terminal run ```touch .env``` open this file and populate it with DB_USER, DB_PASSWORD, and DB_NAME. Then fill in your SQL name and password and the name of the database. In the terminal run ```npm i```. This will install any dependancies needed. Then run  ```node index.js``` and the app is ready to go!
 
 ## Credits
 
@@ -43,7 +43,7 @@ This app was built using inquirer, mysql2, console.table, dotenv and figlet
 
 MIT License
 
-Copyright (c) [year] [fullname]
+Copyright (c) [2023] [Cameron Gardner]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
