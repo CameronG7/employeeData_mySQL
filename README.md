@@ -27,7 +27,7 @@ The app also serves the functional purpose of being something very similar to th
 
 ## Installation
 
-To install the project simply clone the repo to a directory on your machine. Example installation shown in the video below. Once installed, open the project directory in your terminal and run npm i in the command line. This will install any dependancies needed. Then run  node index.js and answer the questions. The READMe will be generated in the the directory.
+To install the project simply clone the repo to a directory on your machine. Example installation shown in the video below.
 
 ## Usage
 
