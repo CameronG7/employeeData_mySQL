@@ -10,7 +10,7 @@ const createEmployee = async () => {
 		const list = listResult[0].map((row) => [row.first_name, row.last_name]);
 		const roleQuery = `SELECT id, title FROM role;`;
 		const roleResult = await connection.query(roleQuery);
-		console.log(list);
+		
 		//console.log(roleResult[0]);
 		const roleList = roleResult[0].map((row) => [row.title, row.id]); // map out the role names and ids from query as an array of arrays
 		//console.log(roleList);
